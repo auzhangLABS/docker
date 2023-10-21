@@ -27,7 +27,7 @@ docker container run -ti {image}
 docker container run -ti  --{name} -p 80:5000 python bash
 
 # creating image
-docker commit --help
+docker build <dockerfile location> --help
 
 # attch ourseleve to container
 docker container attach
