@@ -61,7 +61,8 @@ docker build -t urlimage .
 
 dockerfile: 
 
-
+#rename image 
+docker tag
 
 
 
