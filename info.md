@@ -25,6 +25,8 @@ docker container rm {container}
 docker container run -ti {image}
 # with port and bash (80 HTTP port (VM) -- 5000 Container)
 docker container run -ti  --{name} -p 80:5000 python bash
+docker run -ti -p 80:80 [image-name] python
+
 
 # creating image
 docker build <dockerfile location> --help
